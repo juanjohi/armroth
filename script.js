@@ -20,7 +20,7 @@ let typewriter = new Typewriter(app, {
 typewriter.typeString('AMROTH')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('INTERNATIONAL BOREHOLE')
+    .typeString('INT\'L BOREHOLE')
     .pauseFor(1000)
     .deleteAll()
     .typeString('SOLUTIONS')
