@@ -18,13 +18,13 @@ let typewriter = new Typewriter(app, {
 });
 
 typewriter.typeString('AMROTH')
-    .pauseFor(2500)
+    .pauseFor(1000)
     .deleteAll()
-    .typeString('BOREHOLE DRILLING')
-    .pauseFor(2500)
+    .typeString('INTERNATIONAL BOREHOLE')
+    .pauseFor(1000)
     .deleteAll()
-    .typeString('COMPANY')
-    .pauseFor(2500)
+    .typeString('SOLUTIONS')
+    .pauseFor(1000)
     .start();
 
 
