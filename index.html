@@ -263,7 +263,7 @@
                 </div>
             </div>
 
-            <form class="contact-form" onsubmit="sendEmail(); reset(); return false;">
+            <form class="contact-form">
                 <div>
                     <input type="text" id="text" class="form-control" placeholder="Name">
                     <input type="email" id="email" class="form-control" placeholder="Email">
@@ -287,24 +287,6 @@
 
     <script src="typewriterjs-master/dist/core.js"></script>
     <script src="script.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail() {
-            Email.send({
-                Host: "smtp25.elasticemail.com",
-                Username: "khentheducer@outlook.com",
-                Password: "C5DCC346036847FF79A5329AC20B1637AE05",
-                To: 'kennedywanjohi15@gmail.com',
-                From: document.getElementById("email").value,
-                Subject: "This is the subject",
-                Body: "Name" + document.getElementById("name").value +
-                    "<br> Email:" + document.getElementById("email").value +
-                    "<br> Messsage:" + document.getElementById("message").value
-            }).then(
-                message => alert(message)
-            );
-        }
-    </script>
 </body>
 
 </html>
