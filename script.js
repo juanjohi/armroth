@@ -17,10 +17,10 @@ let typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('AMROTH')
+typewriter.typeString('VINS')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('INT\'L BOREHOLE')
+    .typeString('BOREHOLE')
     .pauseFor(1000)
     .deleteAll()
     .typeString('SOLUTIONS')
