@@ -23,7 +23,7 @@ typewriter.typeString('VINS')
     .typeString('BOREHOLE')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('SOLUTIONS')
+    .typeString('BOREHOLES')
     .pauseFor(1000)
     .start();
 
