@@ -386,14 +386,14 @@ button {
 .portfolio-grid .item .sub-item .text {
     color: #fff;
 }
-
+/* 
 .portfolio-grid .item:hover::after {
     width: 100%;
     height: 100%;
 }
 
 .portfolio-grid .item:hover .sub-item {
-    opacity: 1;
+    opacity: 1; */
 }
 
 
